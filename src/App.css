@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 22px;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+table{
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 10px;
+}
+.table tbody{
+  width: 150px;
+}
+.table th{
+  font-size: 12px;
+  font-weight: 700;
+  background-color: orangered;
+  color: #fff;
+  text-align: center;
+}
+table td{
+  font-size: 11px;
+  border: 1px solid rgb(173, 173, 173);
+}
+table tr{
+  border: 1px solid rgb(117, 117, 117);
+}
+.Choose-button::file-selector-button {
+  margin-top: 50px;
+  margin-right: 20px;
+  background-color: rgb(8, 0, 0);
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  width: 150px;
+  height: 50px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.Choose-button::file-selector-button:hover{
+  transform: scale(0.9);
+}
+.Choose-container{
+  width: 50px;
+  margin-left: 50px;
+}
+
+
+@media only screen and (max-width: 600px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .App{
+    width: 100%;
+  }
+  .Logo-image{
+    width: 100px; 
+    margin-right: 100px;
+    margin-top: 140px;
+  }
+  .Choose-button::file-selector-button {
+    margin-top: 50px;
+    margin-right: 20px;
+    background-color: rgb(8, 0, 0);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    width: 70px;
+    height: 30px;
+    font-size: 8px;
+    font-weight: 600;
+  }
+  .Choose-button::file-selector-button:hover{
+    transform: scale(0.9);
+    background-color: rgb(48, 48, 48);
+  }
+  .Choose-container{
+    width: 50px;
+    margin-left: 50px;
+  }
+  .table{
+    width: 500px;
+    height: 100px;
+  }
+  .table tbody{
+    width: 150px;
+  }
+  .table th{
+    font-size: 12px;
+    font-weight: 700;
+    background-color: orangered;
+    text-align: center;
+  }
+ 
+
+}
