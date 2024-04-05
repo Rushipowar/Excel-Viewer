@@ -19,7 +19,7 @@ table{
   border: 10px;
 }
 .table tbody{
-  width: 150px;
+  width: 150px;  
 }
 .table th{
   font-size: 12px;
@@ -27,6 +27,7 @@ table{
   background-color: orangered;
   color: #fff;
   text-align: center;
+  border: 1px solid #fff;
 }
 table td{
   font-size: 11px;
@@ -104,6 +105,7 @@ table tr{
     font-weight: 700;
     background-color: orangered;
     text-align: center;
+    border: 1px solid #fff;
   }
  
 
