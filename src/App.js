@@ -56,7 +56,7 @@ function App() {
 
       <br /><br />
      <div className="logo-container">
-      <img src={logo} className="Logo-image"></img>
+      // <img src={logo} className="Logo-image"></img>
      </div>
     </div>
   );
